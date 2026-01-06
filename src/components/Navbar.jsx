@@ -28,7 +28,7 @@ function Navbar({ darkMode, toggleDarkMode }) {
               Contact
             </Nav.Link>
             <Nav.Link href="/Mostafa_CV.pdf" target="_blank" rel="noopener noreferrer" className="nav-link">
-              Resume
+              CV
             </Nav.Link>
             <Nav.Link href="https://github.com/Mustafa-Mahmoud-Ahmed" target="_blank" rel="noopener noreferrer" className="social-icon">
               <FaGithub />
