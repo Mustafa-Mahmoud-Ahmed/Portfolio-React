@@ -17,11 +17,11 @@ function Projects({ darkMode }) {
       title: 'E-commerce Black Friday Website',
       description: ' Developed a fully functional e-commerce website showcasing multiple product categories and details. Implemented responsive design and interactive UI components using Bootstrap.',
       tech: ['HTML', 'CSS', 'Bootstrap', 'JavaScript'],
-      github: 'https://github.com',
-      link: 'https://example.com'
+      github: 'https://github.com/Mustafa-Mahmoud-Ahmed/Black-Friday',
+      link: 'https://www.itiqena.com/blackfriday/'
     },
     {
-      id: 4,
+      id: 3,
       title: 'Medical System',
       description: 'Healthcare management system that simplified administrative and patient-related processes with dynamic interfaces connected to backend APIs.',
       tech: ['TypeScript', 'Angular', 'REST API'],
@@ -29,13 +29,30 @@ function Projects({ darkMode }) {
       link: 'https://example.com'
     },
     {
-      id: 5,
+      id: 4,
       title: 'Meeting Management System',
       description: 'Web-based system for organizing and managing meetings efficiently with role-based access and scheduling features.',
-      tech: ['React', 'JavaScript'],
+      tech: ['React', 'JavaScript' , 'REST API'],
       github: 'https://github.com/Mustafa-Mahmoud-Ahmed/Meeting-Management-System',
       link: 'https://example.com'
-    }
+    },
+    {
+      id: 5,
+      title: 'Movies website',
+      description: 'The app fetches movie data from an external API, displays all available movies, and provides users with a smooth and interactive experience.',
+      tech: ['React', 'Bootstrap', 'JavaScript', 'REST API'],
+      github: 'https://github.com/Mustafa-Mahmoud-Ahmed/Movies-Website',
+      link: 'https://www.itiqena.com/movies-website/'
+    },
+     {
+      id: 6,
+      title: 'Riot Games',
+      description: 'Angular-based storefront that lists products, shows product details, and supports user sign-up/sign-in with protected routes.',
+      tech: ['Angular', 'Bootstrap', 'TypeScript', 'REST API'],
+      github: 'https://github.com/Mustafa-Mahmoud-Ahmed/Movies-Website',
+      link: 'https://www.itiqena.com/movies-website/'
+    },
+
   ];
 
   return (

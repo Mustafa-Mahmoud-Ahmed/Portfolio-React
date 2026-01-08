@@ -3,7 +3,7 @@ import './About.css';
 
 function About({ darkMode }) {
   return (
-    <section id="about" className={`about ${darkMode ? 'dark' : 'light'}`}>
+    <section id="about" className={`about ${darkMode ? 'dark' : 'light'}`} dir="rtl">
       <Container>
         <h2 className="section-title">انا مين</h2>
         <Row className="align-items-center">

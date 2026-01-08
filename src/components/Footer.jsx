@@ -8,12 +8,9 @@ function Footer({ darkMode }) {
   return (
     <footer className={`footer ${darkMode ? 'dark' : 'light'}`}>
       <Container>
-        <div className="footer-content">
-          <p>
-            Made with using React & Bootstrap
-          </p>
+        <div className="footer-content">  
           <p className="copyright">
-            &copy; {currentYear} Mostafa Portfolio. All rights reserved.
+            &copy; {currentYear} Mustafa Portfolio. All rights reserved.
           </p>
         </div>
       </Container>

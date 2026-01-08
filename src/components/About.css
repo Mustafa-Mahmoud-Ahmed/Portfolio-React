@@ -38,6 +38,7 @@
   font-weight: 800;
   margin-bottom: 3rem;
   text-align: center;
+  direction: rtl;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -46,6 +47,8 @@
 
 .about-text {
   margin-bottom: 2rem;
+  text-align: right;
+  direction: rtl;
 }
 
 .light .about-text p {
@@ -77,6 +80,7 @@
   padding: 2rem;
   border-radius: 15px;
   text-align: center;
+  direction: rtl;
   transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   cursor: pointer;
   position: relative;
