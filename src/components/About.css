@@ -1,5 +1,4 @@
 .about {
-  padding: 5rem 0;
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
@@ -34,19 +33,10 @@
 }
 
 .section-title {
-  font-size: 2.5rem;
-  font-weight: 800;
-  margin-bottom: 3rem;
-  text-align: center;
   direction: rtl;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
 }
 
 .about-text {
-  margin-bottom: 2rem;
   text-align: right;
   direction: rtl;
 }
@@ -54,7 +44,6 @@
 .light .about-text p {
   font-size: 1.1rem;
   line-height: 1.8;
-  margin-bottom: 1.5rem;
   color: #333;
   opacity: 0.9;
 }
@@ -62,7 +51,6 @@
 .dark .about-text p {
   font-size: 1.1rem;
   line-height: 1.8;
-  margin-bottom: 1.5rem;
   color: #e0e0e0;
   opacity: 0.9;
 }

@@ -41,9 +41,9 @@ function Experience({ darkMode }) {
   ];
 
   return (
-    <section id="experience" className={`experience ${darkMode ? 'dark' : 'light'}`}>
+    <section id="experience" className={`experience py-5 ${darkMode ? 'dark' : 'light'}`}>
       <Container>
-        <h2 className="section-title">Experience</h2>
+        <h2 className="section-title mb-5">Experience</h2>
         <div className="timeline">
           {experiences.map((exp, index) => (
             <div key={exp.id} className={`timeline-item ${index % 2 === 0 ? 'left' : 'right'}`}>

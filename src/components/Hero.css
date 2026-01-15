@@ -3,7 +3,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5rem 0;
   position: relative;
   transition: all 0.3s ease;
   overflow: hidden;
@@ -54,9 +53,8 @@ html {
 }
 
 .hero-title {
-  font-size: 3.5rem;
+  font-size: 2.75rem;
   font-weight: 800;
-  margin-bottom: 1rem;
   line-height: 1.2;
 }
 
@@ -69,14 +67,11 @@ html {
 
 .hero-subtitle {
   font-size: 1.25rem;
-  margin-bottom: 2rem;
   opacity: 0.8;
   line-height: 1.6;
 }
 
 .hero-buttons {
-  display: flex;
-  gap: 1rem;
   flex-wrap: wrap;
 }
 

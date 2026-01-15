@@ -15,9 +15,9 @@ function App() {
   useEffect(() => {
     const savedMode = localStorage.getItem('darkMode');
     if (savedMode) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setDarkMode(JSON.parse(savedMode));
     }
-    // Enable smooth scroll
     document.documentElement.style.scrollBehavior = 'smooth';
   }, []);
 

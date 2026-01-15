@@ -3,14 +3,13 @@ import { FaHeart } from 'react-icons/fa';
 import './Footer.css';
 
 function Footer({ darkMode }) {
-  const currentYear = new Date().getFullYear();
 
   return (
-    <footer className={`footer ${darkMode ? 'dark' : 'light'}`}>
+    <footer className={`footer py-3 text-center ${darkMode ? 'dark' : 'light'}`}>
       <Container>
         <div className="footer-content">  
-          <p className="copyright">
-            &copy; {currentYear} Mustafa Portfolio. All rights reserved.
+          <p className="copyright mb-0">
+            &copy; Mustafa Mahmoud
           </p>
         </div>
       </Container>

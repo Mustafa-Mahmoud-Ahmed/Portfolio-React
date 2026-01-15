@@ -4,16 +4,16 @@ import './Hero.css';
 
 function Hero({ darkMode }) {
   return (
-    <section id="home" className={`hero ${darkMode ? 'dark' : 'light'}`}>
+    <section id="home" className={`hero py-5 ${darkMode ? 'dark' : 'light'}`}>
       <Container className="hero-content">
         <div className="hero-text">
-          <h1 className="hero-title">
-            Hi, I'm <span className="highlight">Mustafa</span>
+          <h1 className="hero-title mb-4">
+            Hi,I'm <span className="highlight">Mustafa Mahmoud</span>
           </h1>
-          <p className="hero-subtitle">
+          <p className="hero-subtitle mb-4">
             Full Stack Developer | React & Angular Specialist | Node js Enthusiast
           </p>
-          <div className="hero-buttons">
+          <div className="hero-buttons d-flex gap-3">
             <a href="#projects" className="btn btn-primary btn-lg">
               View My Work
             </a>
