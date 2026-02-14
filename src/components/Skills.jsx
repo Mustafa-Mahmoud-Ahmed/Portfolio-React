@@ -1,13 +1,13 @@
-import { Container, Row, Col, ProgressBar } from 'react-bootstrap';
-import { FaReact, FaNode, FaDatabase, FaGitAlt } from 'react-icons/fa';
+import { Container, Row, Col } from 'react-bootstrap';
+import { FaReact, FaNode, FaCode, FaGitAlt } from 'react-icons/fa';
 import './Skills.css';
 
 function Skills({ darkMode }) {
   const skillsData = [
-    { category: 'Frontend', icon: FaReact, skills: ['React.js', 'Angular', 'Next.js', 'Bootstrap', 'Sass', 'Tailwind CSS'] },
-    { category: 'Backend', icon: FaNode, skills: ['Node.js', 'Express.js', 'Nest.js', 'REST APIs'] },
-    { category: 'Database', icon: FaDatabase, skills: ['MongoDB', 'MySQL'] },
-    { category: 'Tools & Other', icon: FaGitAlt, skills: ['Git', 'GitHub', 'PWA', 'Generative AI', 'Unit Testing'] }
+    { category: 'Programming Languages', icon: FaCode, skills: ['Python', 'C++', 'JavaScript', 'TypeScript', 'HTML', 'CSS', 'SQL'] },
+    { category: 'Front-End', icon: FaReact, skills: ['React.js', 'Angular', 'Next.js', 'Redux (Redux Toolkit)', 'Bootstrap', 'Sass', 'Tailwind CSS', 'Material UI'] },
+    { category: 'Back-End', icon: FaNode, skills: ['Node.js', 'Express.js', 'Nest.js', 'JWT', 'FastAPI', 'REST APIs', 'MongoDB'] },
+    { category: 'Testing, Tools & Other', icon: FaGitAlt, skills: ['Git', 'GitHub', 'Unit Testing', 'PWA Development', 'Generative AI', 'Problem-Solving'] }
   ];
 
   return (

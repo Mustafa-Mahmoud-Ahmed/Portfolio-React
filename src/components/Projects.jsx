@@ -97,7 +97,7 @@ function Projects({ darkMode }) {
                   </div>
                   <div className="project-links">
                     <a href={project.github} target="_blank" rel="noopener noreferrer" className="project-link">
-                      <FaGithub /> GitHub
+                      <FaGithub /> Repository
                     </a>
                     <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link">
                       <FaExternalLinkAlt /> Live

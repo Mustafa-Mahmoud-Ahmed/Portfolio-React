@@ -3,31 +3,40 @@ import './About.css';
 
 function About({ darkMode }) {
   return (
-    <section id="about" className={`about py-5 ${darkMode ? 'dark' : 'light'}`} dir="rtl">
+    <section id="about" className={`about py-5 ${darkMode ? 'dark' : 'light'}`}>
       <Container>
-        <h2 className="section-title mb-4">انا مين</h2>
+        <h2 className="section-title mb-5">About Me</h2>
         <Row className="align-items-center">
           <Col md={6} className="about-text mb-4 mb-md-0">
-            <p className="mb-3">أنا Full Stack Developer شغوف بتطوير تطبيقات ويب حديثة، قابلة للتوسع، وتقدم تجربة مستخدم عالية الجودة. أمتلك خبرة عملية في تطوير الواجهات الأمامية والخلفية باستخدام تقنيات حديثة مثل React، Angular، Node.js، بالإضافة إلى العمل مع قواعد البيانات المختلفة وبناء RESTful APIs.
-            </p>
-            <p className="mb-3">
-             عملت على تنفيذ مشاريع حقيقية متكاملة شملت أنظمة تجارة إلكترونية ولوحات تحكم إدارية، مع اهتمام كبير بالأداء، الأمان، وجودة الكود. كما أمتلك خلفية قوية في الدعم الفني وحل المشكلات التقنية، مما ساعدني على فهم احتياجات المستخدمين والتعامل مع التحديات التقنية بكفاءة.
-            </p>
-            <p className="mb-3">
-أسعى حاليًا للحصول على فرصة عمل محلية أو دولية داخل فريق تقني احترافي، أستطيع من خلالها تطوير مهاراتي باستمرار والمساهمة في بناء حلول برمجية مؤثرة. خارج إطار العمل، أحرص على استثمار وقتي في متابعة أحدث تطورات الويب، قراءة المقالات التقنية، تعلم تقنيات جديدة، والمشاركة في مشاريع مفتوحة المصدر            </p>
+            <div className="text-content">
+              <p className="intro-text">
+                I'm a passionate <span className="highlight">Full Stack Developer</span> dedicated to building modern, scalable web applications that deliver exceptional user experiences. With hands-on expertise in both frontend and backend development, I leverage cutting-edge technologies like React, Angular, and Node.js to create robust solutions.
+              </p>
+              <p className="description-text">
+                My portfolio includes real-world projects ranging from e-commerce platforms to administrative dashboards, all built with a strong focus on performance, security, and clean code architecture. I work with various databases and specialize in building efficient RESTful APIs.
+              </p>
+              <p className="description-text">
+                Currently seeking opportunities to join professional teams—both local and international—where I can continuously evolve my skills and contribute to impactful software solutions. Beyond coding, I stay engaged with the latest web development trends, contribute to open-source projects, and never stop learning.
+              </p>
+            </div>
           </Col>
           <Col md={6} className="about-stats">
-            <div className="stat-card mb-3">
-              <h3>9+</h3>
-              <p>المشاريع المنجزة</p>
-            </div>
-            <div className="stat-card mb-3">
-              <h3>3+</h3>
-              <p>سنوات الخبرة</p>
-            </div>
-            <div className="stat-card mb-3">
-              <h3>7+</h3>
-              <p>العملاء الراضين</p>
+            <div className="stats-grid">
+              <div className="stat-card" data-aos="fade-left">
+                <h3 className="stat-number">9+</h3>
+                <p className="stat-label">Projects Completed</p>
+                <div className="stat-glow"></div>
+              </div>
+              <div className="stat-card" data-aos="fade-left" data-aos-delay="100">
+                <h3 className="stat-number">3+</h3>
+                <p className="stat-label">Years Experience</p>
+                <div className="stat-glow"></div>
+              </div>
+              <div className="stat-card" data-aos="fade-left" data-aos-delay="200">
+                <h3 className="stat-number">7+</h3>
+                <p className="stat-label">Clients</p>
+                <div className="stat-glow"></div>
+              </div>
             </div>
           </Col>
         </Row>

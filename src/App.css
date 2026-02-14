@@ -21,14 +21,17 @@
   font-weight: 800;
   margin-bottom: 1.5rem;
   text-align: center;
+  position: relative;
+  display: block;
+  width: 100%;
 }
 
 .light .section-title {
-  color: #000000 !important;
+  color: #14b8a6;
 }
 
 .dark .section-title {
-  color: #ffffff !important;
+  color: #5eead4;
 }
 
 body {
